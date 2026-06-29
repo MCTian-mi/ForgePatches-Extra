@@ -56,7 +56,9 @@ configurations.named("runtimeElements") {
 // a remote publish task is in the graph, so the JitPack `publishToMavenLocal` build does not need
 // GPG keys.
 mavenPublishing {
-    publishToMavenCentral()
+    // Target the Sonatype Central Portal (central.sonatype.com). Without this explicit host the
+    // plugin defaults to the legacy OSSRH Nexus, which has been shut down and returns HTTP 402.
+    publishToMavenCentral(com.vanniktech.maven.publish.SonatypeHost.CENTRAL_PORTAL)
 
     // Only sign when a key is actually configured. The Central Portal requires signatures, and CI
     // supplies the key via ORG_GRADLE_PROJECT_signingInMemoryKey. JitPack / local `publishToMavenLocal`
