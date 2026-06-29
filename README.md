@@ -1,6 +1,7 @@
 # ForgePatches-Extra
 
-[![Release](https://jitpack.io/v/MCTian-mi/ForgePatches-Extra.svg)](https://jitpack.io/#MCTian-mi/ForgePatches-Extra)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.mctian-mi/forgepatches-extra.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/io.github.mctian-mi/forgepatches-extra)
+[![JitPack](https://jitpack.io/v/MCTian-mi/ForgePatches-Extra.svg)](https://jitpack.io/#MCTian-mi/ForgePatches-Extra)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A tiny standalone [RetroFuturaBootstrap (RFB)](https://github.com/GTNewHorizons/RetroFuturaBootstrap)
